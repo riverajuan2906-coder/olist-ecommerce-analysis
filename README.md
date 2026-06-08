@@ -41,7 +41,6 @@ olist-ecommerce-analysis/
 │   ├── 05_tiempo_entrega.sql
 │   └── 06_top_vendedores.sql
 ├── dashboard/
-│   ├── e-commerce.pbix
 │   └── capturas/
 │       ├── 01_dashboard_completo.png
 │       ├── 02_kpis_y_tendencia.png
@@ -207,11 +206,11 @@ El tablero se construyó conectando Power BI Desktop directamente a PostgreSQL e
 
 ---
  
-## Como ejecutar
- 
-1. Instala PostgreSQL y pgAdmin.
-2. Descarga una base de datos llamada `ecommerce_db`
-3. Importa los 7 archivos CSV del conjunto de datos de Olist Kaggle dataset. [Olist Kaggle dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-4. Ejecuta en orden los archivos SQL que se encuentran dentro de la carpeta `queries/`. 
-5. Abre `e-commerce.pbix` en Power BI Desktop y actualiza las credenciales de la conexión a PostgreSQL para apuntar a tu servidor local.
+## Cómo Ejecutar el Proyecto
+
+1. **Instalar herramientas:** Asegúrate de tener instalados PostgreSQL y pgAdmin en tu computadora.
+2. **Crear la base de datos:** Abre pgAdmin y crea una base de datos local vacía llamada `ecommerce_db`.
+3. **Cargar los datos:** Descarga los archivos CSV oficiales desde el [Olist Kaggle dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) e impórtalos en sus respectivas tablas dentro de tu base de datos local.
+4. **Ejecutar las consultas:** Abre y ejecuta en orden secuencial (del 1 al 6) los archivos `.sql` que se encuentran en la raíz de este repositorio para replicar el análisis de datos.
+5. **Visualizar el Dashboard:** Debido a las restricciones de tamaño para archivos pesados en GitHub, el archivo ejecutable de Power BI (`.pbix`) no se incluye en el repositorio. Sin embargo, puedes revisar el diseño final, la distribución de los KPIs, el modelo de datos y los gráficos interactivos a través de las capturas de alta definición incluidas en la sección "Dashboard en Power BI" de este documento.
 
