@@ -194,7 +194,7 @@ El tablero se construyó conectando Power BI Desktop directamente a PostgreSQL e
 - **El 97% de las órdenes se entregan con éxito**, con una tasa de cancelación de apenas el 0.6%, lo que demuestra un sólido rendimiento operativo.
 **Estrategia Comercial de Entrega (Expectativa vs. Realidad):** La plataforma Olist maneja una política muy conservadora en sus promesas de envío, mostrando al cliente una **fecha estimada promedio de 24.5 días**. Sin embargo, la operación logística real es altamente eficiente y entrega los pedidos en un **tiempo real promedio de 12.5 días**, logrando una anticipación de casi 12 días respecto a lo prometido. +
 - Categorías como **cds_dvds_musicais** y **livros_interesse_geral** cuentan con las calificaciones más altas por parte de los clientes (4.5+).
-- Los principales vendedores por ingresos se concentran fuertemente en **São Paulo** y ciudades aledañas, manteniendo calificaciones promedio de entre 3.5 y 4.2. 
+- **Concentración Geográfica de Vendedores:** Los vendedores con mayores ingresos se concentran fuertemente en el estado de **São Paulo**. Municipios como **Guariba, Ibitinga e Itaquaquecetuba** (ubicada en la región metropolitana del Gran São Paulo) lideran el ranking comercial, logrando sostener calificaciones promedio muy competitivas de entre 3.5 y 4.2 puntos. Esto confirma que el motor principal de este ecosistema de e-commerce se encuentra centralizado en la región del sureste brasileño.
 
 ---
  
